@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cux Kamvret</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div>
+            <img src="assets/img/logo.png" alt="" width="45" class="logo">
+            <a href="#" class="navbar-logo">Cux <span>Kamvret</span></a>
+        </div>
+        <div class="navbar-nav">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#events">Kegiatan</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="hamburger-menu">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari Bergabung Bersama <br />Cux <span>Kamvret</span></h1>
+            <p>Bergabunglah dengan kumpulan pemuda urusan ghaja' dan dapatkan pangkat tertinggi di sirkel bergengsi</p>
+            <a href="#contact" class="cta">Gabung Sekarang</a>
+        </main>
+    </section>
+
+    <section class="about" id="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="assets/img/bg.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih komunitas kami?</h3>
+          <p>Komunitas ini lebih daripada yang lain, komunitas ini punya rasa solidaritas dan kekeluargaan</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+        <h2><span>Kegiatan</span> Kami</h2>
+      <p>Berikut ini adalah kegiatan kami selama berada di komunitas</p>
+
+      <div class="row">
+        <div class="events-card">
+          <img src="assets/img/foto1.jpg" alt="Bukber" class="events-card-img" />
+          <h3 class="events-card-title">- Buka Bersama -</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2><span>Kontak</span> Kami</h2>
+      <p>Hubungi kami jika ingin bergabung</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.56032018732122!2d113.29740930439311!3d-6.8947752683870025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1674555402827!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="E-mail (Surel)" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Nomor Telepon" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/cux.kamvret19/">
+              <i data-feather="instagram"></i>
+            </a>
+            <a href="#">
+              <i data-feather="twitter"></i>
+            </a>
+            <a href="#">
+              <i data-feather="facebook"></i>
+            </a>
+          </div>
+    
+          <div class="links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#events">Kegiatan</a>
+            <a href="#contact">Kontak</a>
+          </div>
+    
+          <div class="credit">
+            <p>Created by <a href="">Cux Kamvret</a> | &copy; 2024.</p>
+          </div>
+    </footer>
+
+    <!-- script -->
+    <script src="js/script.js"></script>
+
+    <!-- feather icons -->
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
